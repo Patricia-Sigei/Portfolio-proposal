@@ -1,0 +1,5 @@
+/* ── Closing ── */
+.closing { padding: clamp(5rem, 9vw, 8rem) 0; }
+.closing-inner { display: grid; gap: 1.25rem; justify-items: start; }
+.closing h2 { font-size: clamp(2.2rem, 5.5vw, 4rem); margin-bottom: 0; }
+.closing p { color: var(--muted); max-width: 32rem; font-size: 1.1rem; margin-bottom: 0.75rem; }

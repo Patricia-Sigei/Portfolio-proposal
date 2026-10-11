@@ -1,0 +1,15 @@
+/* ── Offer (dark band) ── */
+.offer { background: var(--ink); color: #fff; padding: clamp(4rem, 8vw, 7rem) 0; }
+.offer-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: clamp(2.5rem, 6vw, 6rem); }
+.services li { padding: 1.2rem 0; border-top: 1px solid rgba(255, 255, 255, 0.16); }
+.services li:last-child { border-bottom: 1px solid rgba(255, 255, 255, 0.16); }
+.services h3 { font-size: 1.35rem; font-weight: 700; margin-bottom: 0.35rem; }
+.services p { color: var(--muted-on-ink); max-width: 30rem; }
+.values { display: grid; gap: 1.75rem; }
+.values li { display: grid; gap: 0.15rem; }
+.values .big { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -0.03em; line-height: 1; color: var(--signal); }
+.values .small { color: var(--muted-on-ink); }
+
+@media (max-width: 860px) {
+  .offer-grid { grid-template-columns: 1fr; }
+}

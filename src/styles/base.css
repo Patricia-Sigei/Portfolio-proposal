@@ -1,0 +1,38 @@
+:root {
+  --paper: #f2f3ee;
+  --paper-2: #e7e9e1;
+  --ink: #13171d;
+  --ink-2: #1d232c;
+  --muted: #5a6370;
+  --muted-on-ink: #a7b0bc;
+  --line: #d4d7cc;
+  --signal: #ff4b2b;
+  --blue: #3555e8;
+  --teal: #16a394;
+  --radius: 14px;
+  --display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --body: 'DM Sans', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+img, video, iframe { display: block; max-width: 100%; }
+ul { list-style: none; }
+
+.wrap { width: min(1160px, 100% - 2.5rem); margin-inline: auto; }
+
+h1, h2, h3 { font-family: var(--display); letter-spacing: -0.03em; line-height: 1.05; }
+h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); font-weight: 800; margin-bottom: 2rem; }
+
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

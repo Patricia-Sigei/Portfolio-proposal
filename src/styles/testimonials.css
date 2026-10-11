@@ -1,0 +1,5 @@
+/* ── Testimonials ── */
+.testimonials { padding: clamp(4rem, 8vw, 6rem) 0 0; }
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+blockquote p { font-family: var(--display); font-size: 1.5rem; line-height: 1.25; letter-spacing: -0.02em; margin-bottom: 0.8rem; }
+blockquote footer { color: var(--muted); font-size: 0.95rem; }
