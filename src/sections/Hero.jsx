@@ -1,6 +1,6 @@
 import { site } from "../config/site";
 import CTA from "../components/CTA";
-import Timeline from "../components/Timeline";
+// import Timeline from "../components/Timeline";
 import "../styles/hero.css";
 
 export default function Hero() {
@@ -33,7 +33,7 @@ export default function Hero() {
                 onError={(e) => (e.currentTarget.style.display = "none")}
               />
             </div>
-            <Timeline />
+            {/* <Timeline /> */}
           </div>
         </div>
       </div>
